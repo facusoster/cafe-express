@@ -1,0 +1,69 @@
+:root {
+    --cream-100: #f8f5f0;
+    --cream-200: #eee8e1;
+    --brown-700: #4b2e2b;
+    --brown-500: #6b4c3f;
+    --brown-300: #a3816a;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--cream-100);
+    color: var(--brown-700);
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+    color: var(--brown-700);
+  }
+  
+  button {
+    background: var(--brown-500);
+    color: var(--cream-100);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity .2s;
+  }
+  
+  button:hover { opacity: .85; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: .5rem; }
+  
+  th { background: var(--brown-300); color: var(--cream-100); }
+  td { border-bottom: 1px solid var(--cream-200); }
+
+  .admin-bg  { background: var(--cream-200); }
+.user-bg   { background: var(--cream-100); }
+.admin-wrapper {
+    padding: 2rem;
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cream-100);
+    min-height: calc(100vh - 64px); /* para centrar verticalmente si no hay mucho contenido */
+  }
+  
+  .admin-tabs {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .admin-wrapper table {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  th {
+    background: var(--brown-300);
+    color: var(--cream-100);
+  }
+  td {
+    border-bottom: 1px solid var(--cream-200);
+  }
+  
